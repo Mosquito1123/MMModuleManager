@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MMModuleManager_Example' do
+  pod 'MMModuleManager', :path => '../'
+
+  target 'MMModuleManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
