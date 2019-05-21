@@ -1,0 +1,16 @@
+PODS:
+  - MMModuleManager (0.1.0)
+
+DEPENDENCIES:
+  - MMModuleManager (from `../`)
+
+EXTERNAL SOURCES:
+  MMModuleManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMModuleManager: 5d66f8fe40fb6433b4c65ae3066af65f11a3b950
+
+PODFILE CHECKSUM: 1b6ca5cd0ed73e0635991044eec06f630a2363fb
+
+COCOAPODS: 1.5.3

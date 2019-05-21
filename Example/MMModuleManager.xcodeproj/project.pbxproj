@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		05DBBAD8EB7315C0A81D2BEE /* Pods_MMModuleManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMModuleManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		196C2BF48849D4FA8C07D2A8 /* MMModuleManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMModuleManager.podspec; path = ../MMModuleManager.podspec; sourceTree = "<group>"; };
+		196C2BF48849D4FA8C07D2A8 /* MMModuleManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMModuleManager.podspec; path = ../MMModuleManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E04A12F287A4467D2494C16 /* Pods-MMModuleManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMModuleManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMModuleManager_Tests/Pods-MMModuleManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3FBEF6465A39089DD3FE12AB /* Pods-MMModuleManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMModuleManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMModuleManager_Example/Pods-MMModuleManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MMModuleManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMModuleManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,11 +60,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62D0FB2D1D7D3A6BAFB1DD54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		62D0FB2D1D7D3A6BAFB1DD54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85C829B7495A5511261390CC /* Pods-MMModuleManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMModuleManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMModuleManager_Tests/Pods-MMModuleManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9DE093C5D2F165E22725CE4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9DE093C5D2F165E22725CE4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9E570C44974471B8EDBC011D /* Pods_MMModuleManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMModuleManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAC9B9CF2BF8F649CF4A8DA /* Pods-MMModuleManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMModuleManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMModuleManager_Example/Pods-MMModuleManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */

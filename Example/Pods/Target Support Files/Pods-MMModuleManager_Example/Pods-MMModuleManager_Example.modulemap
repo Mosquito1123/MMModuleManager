@@ -1,0 +1,6 @@
+framework module Pods_MMModuleManager_Example {
+  umbrella header "Pods-MMModuleManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

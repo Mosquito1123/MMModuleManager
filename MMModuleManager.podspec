@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MMModuleManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MMModuleManager.'
+  s.summary          = 'MMModuleManager is an iOS ModuleManager.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  iOS 简单易用的模块管理组件
                        DESC
 
   s.homepage         = 'https://github.com/Mosquito1123/MMModuleManager'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'MMModuleManager' => ['MMModuleManager/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'MMModuleManager/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
