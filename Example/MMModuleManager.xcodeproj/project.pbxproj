@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		83B9F089F7373BB514842670 /* Pods_MMModuleManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E570C44974471B8EDBC011D /* Pods_MMModuleManager_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F39F1FC62295211600E01BAE /* Modules.plist in Resources */ = {isa = PBXBuildFile; fileRef = F39F1FC52295211600E01BAE /* Modules.plist */; };
+		F39F1FC92295221A00E01BAE /* JPushModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F39F1FC82295221A00E01BAE /* JPushModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,9 @@
 		9DE093C5D2F165E22725CE4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9E570C44974471B8EDBC011D /* Pods_MMModuleManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMModuleManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAC9B9CF2BF8F649CF4A8DA /* Pods-MMModuleManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMModuleManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMModuleManager_Example/Pods-MMModuleManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F39F1FC52295211600E01BAE /* Modules.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Modules.plist; sourceTree = "<group>"; };
+		F39F1FC72295221A00E01BAE /* JPushModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPushModule.h; sourceTree = "<group>"; };
+		F39F1FC82295221A00E01BAE /* JPushModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPushModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +156,9 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				F39F1FC52295211600E01BAE /* Modules.plist */,
+				F39F1FC72295221A00E01BAE /* JPushModule.h */,
+				F39F1FC82295221A00E01BAE /* JPushModule.m */,
 			);
 			name = "Example for MMModuleManager";
 			path = MMModuleManager;
@@ -247,6 +255,13 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Mosquito1123;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -277,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				F39F1FC62295211600E01BAE /* Modules.plist in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -367,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39F1FC92295221A00E01BAE /* JPushModule.m in Sources */,
 				6003F59E195388D20070C39A /* MMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
